@@ -36,3 +36,8 @@ Note:
 
 code: https://github.com/rilwanfit/api-platform-learning/commit/619eb1cbc2e674494d34e488f1d64d0a7b83db4a
      
+### Operations
+by default all CRUD operations are automatically registered.
+
+1. Collection operations - act on a collection of resources. [GET, POST]
+2. Item operations - act on a individual resource. [GET, PUT, PATCH, DELETE]
