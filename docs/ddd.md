@@ -30,3 +30,7 @@ code: https://github.com/rilwanfit/api-platform-learning/commit/472e335a105e31a5
 
 #### Example: User entity
 
+- write the tests to ensure an Exception is thrown if any of the dependencies are missing:
+- write a test to ensure that a new User is created correctly
+
+code: https://github.com/rilwanfit/api-platform-learning/commit/8c8f94b88dc0f230be425e50ecb83270079c2d52
