@@ -41,3 +41,6 @@ by default all CRUD operations are automatically registered.
 
 1. Collection operations - act on a collection of resources. [GET, POST]
 2. Item operations - act on a individual resource. [GET, PUT, PATCH, DELETE]
+
+### Domain drive design
+[DDD](/docs/ddd.md)
