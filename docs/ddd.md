@@ -11,6 +11,7 @@ If you want to change a value object you should replace the object with a new on
 
 One of the main goals of Value Objects is also the holy grail of Object Oriented design: encapsulation. By following this abstraction, you will end up with a dedicated location to put all the validation, comparison logic and behaviour for a given concept.
 
+code: https://github.com/rilwanfit/api-platform-learning/commit/667539076a08393a8092dc10877bc6718b280634
 
 ### Entity
 Entities are objects that have an identity within the application. This means the properties of the Entity can change, but the identity of the Entity will remain consistent.
@@ -19,3 +20,8 @@ Most of the time the identity of an entity is represented as a primitive type: u
 - Value Objects are immutable, so they cannot be modified.
 - Value Objects are complex types that can have custom behaviours that otherwise with primitive types cannot have. Put for example the equality operation. With value objects, equality operations can be modelled and encapsulated in their own classes, making concepts go from implicit to explicit.
 
+code: https://github.com/rilwanfit/api-platform-learning/commit/e91ffd3308b4c77497ada33471bb6abf3248f01d
+
+### Aggregate
+
+An aggregate is a cluster of associated objects that we treat as a unit for the purpose of data changes.
