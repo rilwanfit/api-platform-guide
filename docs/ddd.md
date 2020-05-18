@@ -25,3 +25,8 @@ code: https://github.com/rilwanfit/api-platform-learning/commit/e91ffd3308b4c774
 ### Aggregate
 
 An aggregate is a cluster of associated objects that we treat as a unit for the purpose of data changes.
+
+code: https://github.com/rilwanfit/api-platform-learning/commit/472e335a105e31a5720104179b8fc93e02a1d715
+
+#### Example: User entity
+
