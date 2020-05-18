@@ -44,3 +44,5 @@ A Factory is an object that has the single responsibility of creating other obje
 - Factories encapsulates the knowledge needed to create a complex object or Aggregate
 - Objects should not be responsible for their own creation
 - Factories can be used to reconstitute objects as well as create new objects, however there are a couple of important differences.
+
+code: https://github.com/rilwanfit/api-platform-learning/commit/892e322d72e2fe2498a5e400473bc6981531de9d
