@@ -34,3 +34,13 @@ code: https://github.com/rilwanfit/api-platform-learning/commit/472e335a105e31a5
 - write a test to ensure that a new User is created correctly
 
 code: https://github.com/rilwanfit/api-platform-learning/commit/8c8f94b88dc0f230be425e50ecb83270079c2d52
+
+### Factory
+
+A Factory is an object that has the single responsibility of creating other objects.
+
+- Factories are often used to create Aggregates
+- Standardises the instantiation of an object by keeping the object creation login in central place.
+- Factories encapsulates the knowledge needed to create a complex object or Aggregate
+- Objects should not be responsible for their own creation
+- Factories can be used to reconstitute objects as well as create new objects, however there are a couple of important differences.
