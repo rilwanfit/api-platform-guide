@@ -13,5 +13,5 @@ Check how to implement CQRS https://github.com/rilwanfit/api-platform-learning/b
     openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout
     ``` 
   
-  code: https://github.com/rilwanfit/api-platform-learning/commit/ccc316cab920ba4b30140bd5976a54bca34c9671
+  code: https://github.com/rilwanfit/api-platform-learning/commit/346aeb99f616086321739ae612a4d18087bb5ded
 - 
