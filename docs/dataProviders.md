@@ -1,0 +1,25 @@
+## Data Providers
+
+by default Doctrine ORM data providers are enabled.
+
+### Custom Collection Data Provider
+
+- Create `BlogPostCollectionDataProvider` which implements CollectionDataProviderInterface, RestrictedDataProviderInterface
+- Doesn't required to register the service. symfony autowiring will help you to register this service with default priority. if you want to customize priority
+``` yaml
+App\DataProvider\BlogPostCollectionDataProvider:
+    tags: [ { name: 'api_platform.collection_data_provider', priority: 2 } ]
+    # Autoconfiguration must be disabled to set a custom priority
+    autoconfigure: false
+```
+
+- Create and Entity to utilize newly created data provider.
+    - Register the entity as @ApiResource
+    - Add the path mapping in `api_platform.yaml`
+```yaml
+api_platform:
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity', '%kernel.project_dir%/src/Domain/Blog/Entity']
+```
+
+code:

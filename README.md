@@ -44,3 +44,4 @@ by default all CRUD operations are automatically registered.
 
 ### Domain drive design
 [DDD](/docs/ddd.md)
+[Data Providers](/docs/dataProviders.md)
