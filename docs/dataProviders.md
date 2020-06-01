@@ -34,3 +34,9 @@ App\DataProvider\BlogPostItemDataProvider:
     # Autoconfiguration must be disabled to set a custom priority
     autoconfigure: false
 ```
+
+- Create and Entity to utilize newly created data provider.
+    - Register the entity as @ApiResource
+    - Add the path mapping in `api_platform.yaml`
+
+code: https://github.com/rilwanfit/api-platform-learning/commit/d0e8c836c5c109a7e47ac96c35cbfa2c3b9bc93f
