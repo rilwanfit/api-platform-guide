@@ -22,4 +22,4 @@ api_platform:
         paths: ['%kernel.project_dir%/src/Entity', '%kernel.project_dir%/src/Domain/Blog/Entity']
 ```
 
-code:
+code: https://github.com/rilwanfit/api-platform-learning/commit/668cf4940ac0e1156526fc6d48e74d30b6441998
