@@ -23,3 +23,14 @@ api_platform:
 ```
 
 code: https://github.com/rilwanfit/api-platform-learning/commit/668cf4940ac0e1156526fc6d48e74d30b6441998
+
+### Custom Item Data Provider
+
+- Create `BlogPostItemDataProvider` which implements ItemDataProviderInterface, RestrictedDataProviderInterface
+- Doesn't required to register the service. symfony autowiring will help you to register this service with default priority. if you want to customize priority
+``` yaml
+App\DataProvider\BlogPostItemDataProvider:
+    tags: [ { name: 'api_platform.item_data_provider', priority: 2 } ]
+    # Autoconfiguration must be disabled to set a custom priority
+    autoconfigure: false
+```
