@@ -17,3 +17,5 @@ These settings will allow you to control the `Book` object serialization based o
 
 - `name` and `author` properties are exposed to ready mode [GET]
 - Only `name` property exposed to write mode [PUT/POST]
+
+Code: https://github.com/rilwanfit/api-platform-learning/commit/f2fc191ef9d35ba728d368e24c6bcffd6916e2c1
