@@ -19,3 +19,10 @@ These settings will allow you to control the `Book` object serialization based o
 - Only `name` property exposed to write mode [PUT/POST]
 
 Code: https://github.com/rilwanfit/api-platform-learning/commit/f2fc191ef9d35ba728d368e24c6bcffd6916e2c1
+
+### Using Serialization Groups per Operation
+
+it is also possible to defife normalizationContext/denormalizationContext per operations itemOperation/CollectionOperation level
+
+- Operation level configuration will be overriding the general settings
+
