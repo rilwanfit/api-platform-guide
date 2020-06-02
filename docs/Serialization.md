@@ -22,7 +22,7 @@ Code: https://github.com/rilwanfit/api-platform-learning/commit/f2fc191ef9d35ba7
 
 ### Using Serialization Groups per Operation
 
-it is also possible to defife normalizationContext/denormalizationContext per operations itemOperation/CollectionOperation level
+it is also possible to define normalizationContext/denormalizationContext per operations itemOperation/CollectionOperation level
 
 - Operation level configuration will be overriding the general settings
 
@@ -32,4 +32,8 @@ by default serializer provide relations with an IRI, which allows the client to 
 However, for performance reasons, It is possible to embed related API resource in the parent resource and which allow customization too.
 
 Code: https://github.com/rilwanfit/api-platform-learning/commit/5d0cd3de4fd99a78e5cd176e631e400a050ed952
+
+### How to expose computed values in the API resource
+
+It is possible to expose a result of a method in API resource.
 

@@ -12,6 +12,8 @@ This can be done via adding `@ApiResource` annotation to any PHP class, which wi
 
 code: https://github.com/rilwanfit/api-platform-learning/commit/fa9571b723f93a311011aa1109c50aea5d70e1d6
 
+Another way to make and API resource would be to run `bin/console make:entity --api-resource`
+
 ### Validation
 
 API Platform works nicely with symfony validators and provides useful information to client.
@@ -46,5 +48,6 @@ by default all CRUD operations are automatically registered.
 [DDD](/docs/ddd.md)
 
 [Data Providers](/docs/dataProviders.md)
+
 [Serialization](/docs/Serialization.md)
 
