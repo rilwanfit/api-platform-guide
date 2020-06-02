@@ -14,6 +14,8 @@ code: https://github.com/rilwanfit/api-platform-learning/commit/fa9571b723f93a31
 
 Another way to make and API resource would be to run `bin/console make:entity --api-resource`
 
+Code: https://github.com/rilwanfit/api-platform-learning/commit/5f78f3443bbc0a1252929877493caae54610f896
+
 ### Validation
 
 API Platform works nicely with symfony validators and provides useful information to client.
