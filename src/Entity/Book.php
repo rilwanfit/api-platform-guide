@@ -30,8 +30,9 @@ class Book
     private $name;
 
     /**
-     * @ORM\Column(type="string", length=255)
-     *  @Groups({"book:read"})
+     * @ORM\ManyToOne(targetEntity=User::class, inversedBy="books")
+     * @ORM\JoinColumn(nullable=false)
+     * @Groups({"book:read"})
      */
     private $author;
 
@@ -52,12 +53,12 @@ class Book
         return $this;
     }
 
-    public function getAuthor(): ?string
+    public function getAuthor(): ?User
     {
         return $this->author;
     }
 
-    public function setAuthor(string $author): self
+    public function setAuthor(?User $author): self
     {
         $this->author = $author;
 

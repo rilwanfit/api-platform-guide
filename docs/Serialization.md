@@ -26,3 +26,10 @@ it is also possible to defife normalizationContext/denormalizationContext per op
 
 - Operation level configuration will be overriding the general settings
 
+### API Resource Relations
+by default serializer provide relations with an IRI, which allows the client to make separate call to get details of related API resource.serializer
+
+However, for performance reasons, It is possible to embed related API resource in the parent resource and which allow customization too.
+
+Code:
+
