@@ -6,6 +6,7 @@ Check how to implement CQRS https://github.com/rilwanfit/api-platform-learning/b
 
 #### Setup
 - install required package `composer require jwt-auth`
+
 - Generate the SSH keys
     ```bash
     mkdir -p config/jwt
@@ -14,4 +15,12 @@ Check how to implement CQRS https://github.com/rilwanfit/api-platform-learning/b
     ``` 
   
   code: https://github.com/rilwanfit/api-platform-learning/commit/346aeb99f616086321739ae612a4d18087bb5ded
-- 
+
+- Create User entity and make it implement `UserInterface`
+
+- Configure security
+    - encoders
+    - providers
+    - json_login with jwt
+
+- Configure routes for login

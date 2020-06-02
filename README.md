@@ -47,6 +47,9 @@ by default all CRUD operations are automatically registered.
 2. Item operations - act on a individual resource. [GET, PUT, PATCH, DELETE]
 
 ### Domain drive design
+
+[Authentication](/docs/authentication.md)
+
 [DDD](/docs/ddd.md)
 
 [Data Providers](/docs/dataProviders.md)
