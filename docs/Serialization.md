@@ -31,5 +31,5 @@ by default serializer provide relations with an IRI, which allows the client to 
 
 However, for performance reasons, It is possible to embed related API resource in the parent resource and which allow customization too.
 
-Code:
+Code: https://github.com/rilwanfit/api-platform-learning/commit/5d0cd3de4fd99a78e5cd176e631e400a050ed952
 
