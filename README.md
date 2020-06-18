@@ -48,7 +48,7 @@ by default all CRUD operations are automatically registered.
 
 ### Domain drive design
 
-[Authentication](/docs/authentication.md)
+[Authentication](/docs/Authentication.md)
 
 [DDD](/docs/ddd.md)
 
